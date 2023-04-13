@@ -6,8 +6,8 @@ function loaded() {
   let mouseIsDown = false;
 
   let SCALE = 0.1;
-  let OFFSET_X = 150;
-  let OFFSET_Y = 150;
+  let OFFSET_X = 550;
+  let OFFSET_Y = 200;
   let width = canvas.width * SCALE;
   let height = canvas.height * SCALE;
 
