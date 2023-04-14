@@ -5,4 +5,9 @@
 ### Why solar system❓❓
 The solar system was created by me with the idea of working a bit on canvas and I'm interested in the universe so I thought a small project about planets would be a good practice for me 🤓 
 
+### How you can open this application?
+You can do it by command:
+
+```npm run start ```
+
 ##### You can also see the solar system at this [link](https://codesandbox.io/s/solar-system-forked-dd77v7).
