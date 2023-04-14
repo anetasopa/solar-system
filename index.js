@@ -3,11 +3,13 @@ function loaded() {
   let ctx = canvas.getContext("2d");
   var moonImage = document.getElementById("moonImage");
 
+  canvas.style = "position: absolute; top: 0px; left: 0; right: 0px; bottom: 0px; margin: 0 auto;"
+
   let mouseIsDown = false;
 
   let SCALE = 0.1;
-  let OFFSET_X = 550;
-  let OFFSET_Y = 200;
+  let OFFSET_X = canvas.width / 2 - 100;
+  let OFFSET_Y = canvas.height / 2;
   let width = canvas.width * SCALE;
   let height = canvas.height * SCALE;
 
